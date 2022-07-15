@@ -1,0 +1,39 @@
+.button {
+    background-color: #E41F7B;
+    max-width: 307px;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.button a {
+    color: #fff;
+    font-size: calc(18 / 16 * 100%);
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    align-self: center;
+}
+
+.fullWidth {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 589px) {
+    .button {
+        background-color: #E41F7B;
+        max-width: 307px;
+        width: 100%;
+        text-align: center;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        border-radius: 8px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,231 @@
+.main {
+    width: 100%;
+    background: url('../../img/careIcons/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+}
+
+.container {
+    padding: 0 20px;
+    padding-top: 110px;
+    padding-bottom: 90px;
+    max-width: 1314px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic {
+    max-width: 403px;
+    display: flex;
+}
+
+.pic img {
+    align-self: center;
+    width: 115%;
+}
+
+.contant {
+    margin-left: 100px;
+}
+
+.contantContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+.card {
+    max-width: 243px;
+    width: 100%;
+    height: 278px;
+    margin: 0 15px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.cardContainer {
+    align-self: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    margin: 15px 0px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.subTitle {
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+@media screen and (max-width: 1270px) {
+    .picContainer {
+        display: flex;
+    }
+    .picContainer img {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .container {
+        padding-top: 110px;
+        padding-bottom: 90px;
+        max-width: 1314px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pic {
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .picContainer {
+        margin-left: -75px;
+    }
+
+    .picContainer img {
+        align-self: center;
+        width: 100%;
+    }
+
+    .contant {
+        margin-left: 0px;
+    }
+
+    .contantContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .card {
+        max-width: 243px;
+        width: 100%;
+        height: 240px;
+        margin: 0 15px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        border-radius: 8px;
+    }
+
+    .cardContainer {
+        align-self: center;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .card {
+        max-width: 243px;
+        width: 100%;
+        height: 275px;
+        margin: 0 15px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        border-radius: 8px;
+    }
+
+    .cardContainer {
+        align-self: center;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .contantContainer {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        margin-top: 33px;
+        width: 100%;
+    }
+
+    .cardContainer {
+        align-self: center;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+    }
+
+    .card {
+        max-width: 340px;
+        width: 100%;
+        height: 150px;
+        margin: 0 auto;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+
+    .text {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .pic {
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .picContainer {
+        margin-left: -30px;
+    }
+
+    .picContainer img {
+        align-self: center;
+        width: 90%;
+    }
+}

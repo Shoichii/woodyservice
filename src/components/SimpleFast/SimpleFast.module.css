@@ -1,0 +1,179 @@
+.main {
+    width: 100%;
+    height: 872px;
+    background: url('../../img//SimpleFast/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 105px;
+    display: flex;
+    padding: 0px 20px;
+}
+
+.container {
+    align-self: center;
+    max-width: 1437px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 80px;
+    padding: 0px 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 100%;
+    margin: 50px auto 0px;
+    padding: 0px 20px;
+}
+
+.photo img {
+    margin-top: 30px;
+}
+
+.form {
+    margin-left: 10px;
+}
+
+.formTitle {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.fields {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 37px;
+}
+
+.fields1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.fields1 input {
+    border: 2px solid rgba(143, 143, 143, 0.7);
+    border-radius: 8px;
+    height: 50px;
+    max-width: 270px;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.fields1 input::placeholder {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(97, 97, 97, 0.6);
+}
+
+.fields1 select {
+    border: 2px solid rgba(143, 143, 143, 0.7);
+    border-radius: 8px;
+    height: 50px;
+    max-width: 270px;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(97, 97, 97, 0.6);
+    padding: 17px 10px 17px 10px;
+}
+
+.fields2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.fields2 input {
+    border: 2px solid rgba(143, 143, 143, 0.7);
+    border-radius: 8px;
+    height: 50px;
+    max-width: 270px;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.fields2 input::placeholder {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(97, 97, 97, 0.6);
+}
+
+.fields2 select {
+    border: 2px solid rgba(143, 143, 143, 0.7);
+    border-radius: 8px;
+    height: 50px;
+    max-width: 270px;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(97, 97, 97, 0.6);
+    padding: 17px 10px 17px 10px;
+}
+
+.area textarea {
+    max-width: 570px;
+    width: 100%;
+    height: 122px;
+    border: 2px solid rgba(143, 143, 143, 0.7);
+    border-radius: 8px;
+    padding: 25px 0px 0px 30px;
+    margin-top: 20px;
+    resize: none;
+}
+
+.area textarea::placeholder {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(97, 97, 97, 0.6);
+}
+
+.button {
+    width: 100%;
+    margin-bottom: 108px;
+}
+
+.button p {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .form {
+        margin: 0 auto;
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .formTitle {
+        text-align: center;
+    }
+}

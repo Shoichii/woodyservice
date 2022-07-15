@@ -1,0 +1,36 @@
+.main {
+    background-color: #fff;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.container {
+    padding: 15px;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        background-color: #fff;
+        width: 140px;
+        border-radius: 20px;
+    }
+    .container img {
+        display: block;
+        margin: 0 auto;
+        width: 117px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container img {
+        display: block;
+        margin: 0 auto;
+        width: 97px;
+    }
+}

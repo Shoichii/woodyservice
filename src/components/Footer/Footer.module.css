@@ -1,0 +1,309 @@
+.main {
+    background-color: #160142;
+    width: 100%;
+    height: 380px;
+    margin-top: 105px;
+}
+
+.container {
+    max-width: 1314px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    padding-top: 57px;
+}
+
+.logo {
+    width: 170px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+.logo img {
+    width: 80%;
+    height: 90%;
+    align-self: center;
+}
+
+.logoInfo p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.menu {
+    color: #fff;
+    max-width: 400px;
+    width: 100%;
+    flex: 1;
+    margin-right: 15px;
+}
+
+.contacts {
+    color: #fff;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 55px;
+    max-width: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.closeContacts {
+    height: 0px;
+}
+
+
+.contactsTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactsTitle img {
+    display: block;
+    height: 6px;
+    width: 10px;
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-right: 150px;
+}
+
+.contactsTitle {
+    color: #fff;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.contactsData {
+    height: 130px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.closeContactsData {
+    height: 0px;
+    transition: all 1s;
+}
+
+.callUs {
+    max-width: 300px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.callUsTitle {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.yourPhone {
+    max-width: 270px;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    margin-top: 20px;
+}
+
+.yourPhone input {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.yourPhone input::placeholder {
+    align-self: center;
+    padding-left: 31px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 110%;
+}
+
+.yourPhone button {
+    background-color: #E41F7B;
+    width: 70px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: rgba(250, 250, 250, 0.64);
+    margin-top: 20px;
+}
+
+.policy {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.lastRow {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lastRow p {
+    margin-top: 18px;
+    font-size: 9px;
+}
+
+.c {
+    padding-top: 5px
+}
+
+
+@media screen and (max-width: 900px) {
+    .main {
+        background-color: #160142;
+        width: 100%;
+        height: 652px;
+        margin-top: 105px;
+    }
+
+    .menu {
+        color: #fff;
+        max-width: 500px;
+        width: 100%;
+        flex: 1;
+        margin-right: 15px;
+    }
+
+    .contacts {
+        color: #fff;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        margin-left: 0px;
+        max-width: 200px;
+        width: 100%;
+        margin-top: 33px;
+    }
+
+    .contacts p:not(:first-child) {
+        margin-bottom: 10px;
+        color: #fff;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        margin-left: 0px;
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .callUs {
+        max-width: 300px;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 33px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .main {
+        background-color: #160142;
+        width: 100%;
+        height: 100%;
+        margin-top: 105px;
+    }
+
+    .container {
+        max-width: 1314px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0 25px;
+        padding-top: 57px;
+    }
+
+    .logo {
+        width: 170px;
+        height: 80px;
+        background-color: #fff;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 14px;
+    }
+
+    .logoInfo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contacts {
+        color: #fff;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        margin-left: 0px;
+        max-width: 200px;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .logo {
+        width: 200px;
+        height: 60px;
+        background-color: #fff;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 14px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .logo {
+        width: 270px;
+        height: 60px;
+        background-color: #fff;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 14px;
+    }
+}

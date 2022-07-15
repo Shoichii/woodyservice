@@ -1,0 +1,194 @@
+.main {
+    width: 100%;
+    margin-top: 160px;
+    margin-bottom: 150px;
+    padding: 30px
+}
+
+.container {
+    max-width: 1314px;
+    width: 100%;
+    height: 625px;
+    margin: 0 auto;
+    background: url('../../img/reputation/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 35px;
+    position: relative;
+    padding: 0px 20px;
+}
+
+.quoteUp {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: -55px;
+    left: 80px;
+}
+
+
+.title {
+    margin: 0 auto;
+    max-width: 850px;
+    width: 100%;
+    padding-top: 70px;
+}
+
+.quoteDown {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -45px;
+    right: 80px;
+    display: flex;
+    justify-content: end;
+}
+
+.swiper {
+    width: 100vw;
+    position: absolute;
+}
+
+.review {
+    background-color: #fff;
+    width: 280px;
+    height: 80%;
+    box-shadow: 0px 4px 20px 4px rgba(45, 2, 66, 0.4);
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.reviewContainer {
+    align-self: center;
+    margin: 0px 22px;
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+}
+
+.avaTitle {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.ava {
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+}
+
+.title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+
+.reviewText {
+    margin-top: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .title {
+        margin: 0 auto;
+        max-width: 850px;
+        width: 100%;
+        padding-top: 100px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 762px) {
+    .title {
+        font-size: 80%;
+    }
+}
+
+
+
+@media screen and (max-width: 650px) {
+    
+    .quoteUp {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        top: -35px;
+        left: 55px;
+    }
+
+    .quoteUp img {
+        width: 100px;
+    }
+
+    .quoteDown {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        bottom: -35px;
+        right: 40px;
+        display: flex;
+        justify-content: end;
+    }
+
+    .quoteDown img {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+
+    .quoteUp {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        top: -30px;
+        left: 40px;
+    }
+
+    .quoteUp img {
+        width: 80px;
+    }
+
+    .quoteDown {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        bottom: -30px;
+        right: 30px;
+        display: flex;
+        justify-content: end;
+    }
+
+    .quoteDown img {
+        width: 80px;
+    }
+
+    .title {
+        margin: 0 auto;
+        max-width: 850px;
+        width: 100%;
+        padding-top: 100px;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 70%;
+    }
+}
+
+
+

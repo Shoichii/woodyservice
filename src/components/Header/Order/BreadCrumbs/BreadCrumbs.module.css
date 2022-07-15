@@ -1,0 +1,46 @@
+.main {
+    margin-bottom: 26px;
+    margin-top: 70px;
+    display: flex;
+}
+
+.first {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 110%;
+}
+
+.first a {
+    color: #000;
+}
+
+.arrow {
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.second  {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 110%;
+    color: #C82981;
+}
+
+@media screen and (max-width: 1120px) {
+    .main {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .main {
+        max-width: 185px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto 26px;
+    }
+}

@@ -1,0 +1,159 @@
+.text {
+    display: flex;
+    width: 100%;
+}
+
+.rows {
+    flex-direction: column;
+}
+
+.menuList {
+    align-self: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuList a {
+    margin: 0 25px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: #000;
+}
+
+.menuVerticalList {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.menuVerticalList a {
+    margin: 10px 0px;
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+}
+
+.hideMenu {
+    width: 15%;
+    min-width: 80px;
+    margin: 10px 0px;
+    margin-left: 10px;
+}
+
+.hideMenu div {
+    overflow: visible;
+}
+
+.menuTitle p {
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    overflow: hidden;
+    height: 140px;
+    transition: all 1s;
+}
+
+.linksHeader {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.closeMenu {
+    height: 0px;
+    transition: all 1s;
+}
+
+.whatRepaireData {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    width: 95%;
+}
+
+.whatRepaier p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+}
+
+.whatRepaireTitle {
+    font-size: 25px;
+}
+
+
+
+.whatRepaireData {
+    overflow: hidden;
+    height: 200px;
+    transition: all 1s;
+}
+
+.closeWhatRepaireData {
+    height: 0px;
+    transition: all 1s;
+}
+
+.white {
+    margin-top: 0px;
+}
+
+.white a {
+    color: #fff;
+}
+
+.white p {
+    color: #fff;
+}
+
+.menuTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuTitle img {
+    display: block;
+    height: 6px;
+    width: 10px;
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-right: 300px;
+}
+
+.whatRepaireTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.whatRepaireTitle img {
+    display: block;
+    height: 6px;
+    width: 10px;
+    margin-top: 12px;
+    margin-right: 300px;
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width: 1175px) {
+    .menuList a {
+        margin: 0 10px;
+        font-family: 'Rubik', sans-serif;
+        text-align: center;
+        color: #000;
+    }
+}

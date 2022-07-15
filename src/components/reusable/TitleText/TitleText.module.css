@@ -1,0 +1,117 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Rubik';
+    font-style: normal;
+}
+
+.mainCenter {
+    text-align: center;
+}
+
+.title {
+    font-weight: 500;
+    font-size: calc(55 / 16 * 100%);
+    line-height: 65px;
+}
+
+.white {
+    color: #FAFAFA;
+}
+
+.subTitle {
+    line-height: 26px;
+    margin-top: 28px;
+}
+
+@media screen and (max-width: 1130px) {
+    .titleSmaller {
+        font-weight: 500;
+        font-size: calc(40 / 16 * 100%);
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-weight: 500;
+        font-size: calc(43 / 16 * 100%);
+        line-height: 53px;
+    }
+
+    .titleSmaller {
+        font-weight: 500;
+        font-size: calc(35 / 16 * 100%);
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .subTitleHide {
+        line-height: 26px;
+        margin-top: 28px;
+        height: 50px;
+        overflow: hidden;
+        transition: all 1s;
+    }
+
+    .subTitleShow {
+        height: 80px;
+        transition: all 1s;
+    }
+}
+
+@media screen and (max-width: 589px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Rubik';
+        font-style: normal;
+        text-align: center;
+    }
+    .title {
+        font-weight: 500;
+        font-size: calc(32 / 16 * 100%);
+        line-height: 45px;
+    }
+    
+    .subTitle {
+        font-size: 14px;
+        line-height: 26px;
+        margin-top: 28px;
+    }
+
+    .subTitleHide {
+        line-height: 26px;
+        margin-top: 28px;
+        height: 50px;
+        overflow: hidden;
+        transition: all 1s;
+    }
+
+    .subTitleShow {
+        height: 140px;
+        transition: all 1s;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .subTitleHide {
+        line-height: 26px;
+        margin-top: 28px;
+        height: 80px;
+        overflow: hidden;
+        transition: all 1s;
+    }
+
+    .subTitleShow {
+        height: 215px;
+        transition: all 1s;
+    }
+}
+
+.hide {
+    color: #F18CBC;
+    cursor: pointer;
+    text-decoration: underline;
+}

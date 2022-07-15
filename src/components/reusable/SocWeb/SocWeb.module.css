@@ -1,0 +1,34 @@
+.main {
+    max-width: 225px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.top {
+    display: block;
+    margin-top: 20px;
+    margin-left: 38px;
+}
+
+.container {
+    margin-right: 10%;
+    width: 75%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    margin: 0 3px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+    margin-right: 10%;
+    width: 95%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+}
